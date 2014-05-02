@@ -14,6 +14,11 @@ gem 'pg'
 gem 'rolify'
 gem 'simple_form'
 gem 'thin'
+gem 'will_paginate'
+gem 'faker'
+gem 'carrierwave'
+gem 'twitter-bootstrap-rails'
+
 group :development do
   gem 'capistrano', '~> 3.0.1'
   gem 'capistrano-bundler'
@@ -42,3 +47,4 @@ group :test do
   gem 'database_cleaner', '1.0.1'
   gem 'email_spec'
 end
+
