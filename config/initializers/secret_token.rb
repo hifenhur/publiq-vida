@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-PubliqVida::Application.config.secret_key_base = '72a07d20913277acc46e7b474fbba2860367f00b643adf874e3569ada543210bcc7db41c49f4db0f29c87a2b58b43477c0c5193f2a4db74cfb85155e73cc22f4'
+PubliqVida::Application.config.secret_key_base = 'cec158374aa18092c9ffadeaaee42cce61c73ef801838dcc110fdb335ccf75e03fc7236acea47319b26d04ed1fdc4a72e7f521ef315b281975c573e7d4632225'
