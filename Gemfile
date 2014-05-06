@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 ruby '2.0.0'
 gem 'rails', '4.0.3'
 gem 'sass-rails', '~> 4.0.0'
@@ -18,6 +18,10 @@ gem 'will_paginate'
 gem 'faker'
 gem 'carrierwave'
 gem 'twitter-bootstrap-rails'
+gem 'sqlite3'
+gem 'ckeditor'
+gem 'protected_attributes'
+gem 'mini_magick'
 
 group :development do
   gem 'capistrano', '~> 3.0.1'

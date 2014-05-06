@@ -1,0 +1,6 @@
+<%= form_for @book do |form| %>
+  
+  <%= cktext_area :books, :pages, :ckeditor => {:language => 'pt-br'} %>
+  <br>
+  <%= form.submit class: 'btn-primary' %>
+<% end %>
